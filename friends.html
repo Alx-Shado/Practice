@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,100;1,300&family=Spartan:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fstyle.css">
+    <link rel="icon" type="x-icon" href="/assets/icons/location_pointer_map_destination_pin_icon_153125.svg">
+    <title>Places | Friends </title>
+</head>
+<body>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+  <header class="primary-header flex">
+      <figure class="flex nav-logo">
+          <img src="/assets/icons/location_pointer_map_destination_pin_icon_153125.svg" alt="logo">
+          <h2 class="txt-accent fs-600 ff-popp letter-spacing-3">Places</h2>
+      </figure>
+      <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+                <li><a class="numer-tittle fs-500 ff-popp uppercase letter-spacing-2" href="/index.html"><span>00</span>Home</a></li>
+                <li><a class="numer-tittle fs-500 ff-popp uppercase letter-spacing-2" href=""><span>01</span>Recomended</a></li>
+                <li><a class="numer-tittle fs-500 ff-popp uppercase letter-spacing-2" href=""><span>02</span>Random </a></li>
+                <li class="active"><a class="numer-tittle fs-500 ff-popp uppercase letter-spacing-2" href="/friends.html"><span>04</span>Friends</a></li>
+                <li><a class="numer-tittle fs-500 ff-popp uppercase letter-spacing-2" href=""><span>05</span>Bussiness</a></li>
+            </ul>
+      </nav>
+      <div class="log-forms underline-indicators ">
+            <a class= "txt-white fs-500 ff-popp uppercase letter-spacing-2" href="">Log In</a>
+            <a class="st-btn txt-accent fs-500 ff-popp uppercase letter-spacing-2" href="">Sing up</a>
+      </div>
+  </header>
+
+  <main class="main-body flex">
+
+      <section class="filters">
+
+          <ul class="filter-list">
+              <li>
+                  <div class="filter-box flex">
+                      <figure><img src="/assets/icons/trending (1).png" alt=""></figure>
+                      <h3>Trending</h3>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="filter-box flex">
+                      <figure><img src="/assets/icons/tickets.png" alt=""></figure>
+                  <h3>Events</h3>
+                  </div>
+              </li>
+
+              <li class="">
+                  <div class="filter-box flex ">
+                      <figure><img src="/assets/icons/puzzle (1).png" alt=""></figure>
+                  <h3>Activities</h3>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="filter-box flex">
+                      <figure><img src="/assets/icons/map (1).png" alt=""></figure>
+                      <h3>Locations</h3>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="filter-box flex">
+                      <figure><img src="/assets/icons/pamphlet.png" alt=""></figure>
+                      <h3>Tourism </h3>
+                  </div>
+              </li>
+
+          </ul>
+
+      </section>
+
+      <section class="m-body flex">
+
+          <section class="friends-cards">
+            <div class="cards-container ">
+
+                <div class="card">
+                    <div class="card-ttl flex">
+                        <figure class="c-prof-pic"><img src="/assets/img/355-3555383_circle-profile-picture-clipart.png" alt=""></figure>
+                        <div><h2 class="txt-white fs-600">@Kim</h2></div>
+                      </div>
+                    <div>
+                      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <figure>
+                                    <img src="/assets/img/pexels-anna-tarazevich-6370078.jpg" class="d-block w-100" alt="...">
+                                </figure>
+                            </div>
+                            <div class="carousel-item ">
+                              <figure>
+                                  <img src="/assets/img/pexels-anna-tarazevich-6370075.jpg" class="d-block w-100" alt="...">
+                              </figure>
+                          </div>
+                            <div class="carousel-item">
+                                <div class="review-cont d-block w-100">
+                                    <h2 class="fs-700 ff-popp letter-spacing-2">"Love this place is awesome, i and have a lot fun going with friends"</h2>
+                                </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                    </div>
+                    <div class="place-ttl flex">
+                        <div class="p-ttl flex">
+                            <h2 class="ff-popp fs-600 letter-spacing-3">MiniGolf</h2>
+                            <div class="rating flex">
+                              <h5>4.0</h5>
+                              <figure><img src="./assets/icons/star_86960.png" alt=""></figure>
+                          </div>
+
+                        </div>
+                        <!-- <figure><img src="/assets/icons/heart_icon-icons.com_54429.png" alt=""></figure> -->
+                        <a class="card-btn st-btn" href="">View place &gt;</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-ttl flex">
+                        <figure class="c-prof-pic"><img src="/assets/img/profile-2.png" alt=""></figure>
+                        <div><h2 class="txt-white fs-600">@Tom</h2></div>
+                      </div>
+                    <div>
+                      <div id="carouselExampleFade-1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <figure>
+                                    <img src="/assets/img/pexels-huy-phan-1383776.jpg" class="d-block w-100" alt="...">
+                                </figure>
+                            </div>
+                            <div class="carousel-item ">
+                              <figure>
+                                  <img src="/assets/img/pexels-andie-venzl-2418920.jpg" class="d-block w-100" alt="...">
+                              </figure>
+                          </div>
+                            <div class="carousel-item">
+                                <div class="review-cont d-block w-100">
+                                    <h2 class="fs-700 ff-popp letter-spacing-2">"If your looking for a romantic dinner with and amazing view this is the place"</h2>
+                                </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade-1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade-1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                    </div>
+                    <div class="place-ttl flex">
+                        <div class="p-ttl flex">
+                            <h2 class="ff-popp fs-600 letter-spacing-3">La Poma</h2>
+                            <div class="rating flex">
+                              <h5>4.5</h5>
+                              <figure><img src="./assets/icons/star_86960.png" alt=""></figure>
+                          </div>
+
+                        </div>
+                        <a class="card-btn st-btn" href="">View place &gt;</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-ttl flex">
+                        <figure class="c-prof-pic"><img src="/assets/img/Round-Profile-Picture-768x768-1.png" alt=""></figure>
+                        <div><h2 class="txt-white fs-600">@Johnny</h2></div>
+                      </div>
+                    <div>
+                      <div id="carouselExampleFade-2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <figure>
+                                    <img src="/assets/img/pexels-quark-studio-2507025 (1).jpg" class="d-block w-100" alt="...">
+                                </figure>
+                            </div>
+                            <div class="carousel-item ">
+                              <figure>
+                                  <img src="/assets/img/pexels-pixabay-33129.jpg" class="d-block w-100" alt="...">
+                              </figure>
+                          </div>
+                            <div class="carousel-item">
+                                <div class="review-cont d-block w-100">
+                                    <h2 class="fs-700 ff-popp letter-spacing-2">"A very difrent way to enjoy movies, ideal for a nice date"</h2>
+                                </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade-2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade-2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                    </div>
+                    <div class="place-ttl flex">
+                        <div class="p-ttl flex">
+                            <h2 class="ff-popp fs-600 letter-spacing-3">Open Cinema</h2>
+                            <div class="rating flex">
+                              <h5>5.0</h5>
+                              <figure><img src="./assets/icons/star_86960.png" alt=""></figure>
+                          </div>
+
+                        </div>
+                        <a class="card-btn st-btn" href="">View place &gt;</a>
+                    </div>
+                </div>
+
+            </div>
+          </section>
+
+          <section class="upcoming-body">
+              <section>
+                  <div class="section-ttl flex">
+                      <figure><img src="/assets/icons/new.png" alt=""></figure>
+                      <h2>Upcoming</h2>
+                  </div>
+                  <div class="up-bussiness underline-indicators">
+
+                      <div class="bussiness flex">
+                          <figure><img src="/assets/img/pexels-chan-walrus-941864.jpg" alt=""></figure>
+                          <div>
+                              <div class="bussiness-ttl">
+                                  <h3>80´sClub</h3>
+                              </div>
+                              <div class="bussiness-sub flex">
+                                  <figure><img src="/assets/icons/placeholder.png" alt=""></figure>
+                                  <h5 class="fs-200">556 Walnut Street, Brooklyn, NY</h5>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="bussiness flex">
+                        <figure><img src="/assets/img/pexels-tuur-tisseghem-2954405.jpg" alt=""></figure>
+                        <div>
+                            <div class="bussiness-ttl">
+                                <h3>Shoping Center</h3>
+                            </div>
+                            <div class="bussiness-sub flex">
+                                <figure><img src="/assets/icons/placeholder.png" alt=""></figure>
+                                <h5 class="fs-200">9133 West Glenwood, Bronx, NY</h5>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="bussiness flex">
+                        <figure><img src="/assets/img/pexels-quark-studio-2507025.jpg" alt=""></figure>
+                        <div>
+                            <div class="bussiness-ttl">
+                                <h3>Open Cinema</h3>
+                            </div>
+                            <div class="bussiness-sub flex">
+                                <figure><img src="/assets/icons/placeholder.png" alt=""></figure>
+                                <h5 class="fs-200">88 Homestead Street, Jamaica, NY</h5>
+                            </div>
+                        </div>
+                      </div>
+
+                  </div>
+
+              </section>
+
+          </section>
+
+      </section>
+
+
+  </main>
+
+<section class="upcoming"></section>
+
+
+<script type="text/javascript" src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
